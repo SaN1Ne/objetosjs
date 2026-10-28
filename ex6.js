@@ -14,6 +14,4 @@ livro = {
     ano: 1954
 }
 
-for (autor in livro){
-    console.log(livro, livro.autor)
-}
+console.log("autor" in livro)
